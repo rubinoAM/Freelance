@@ -1,3 +1,23 @@
 html, body {
-width:100%;
+    width:100%;
+    font-family:'Lora','Garamond','Palatino','Georgia',serif;
 }
+
+.navbar{
+    padding:1rem;
+    color:#aa2a19;
+    box-shadow: rgba(95, 91, 91, 0.15) 0 1px 12px;
+}
+
+.nav-brand{
+    text-align:center;
+    font-size:2.25rem;
+    font-weight:400;
+    letter-spacing:0.125rem;
+}
+
+/* Colors
+    Brick Red- #aa2a19;
+    Red- #d31313;
+    White- #fff;
+*/
