@@ -7,13 +7,25 @@ html, body {
     padding:1rem;
     color:#aa2a19;
     box-shadow: rgba(95, 91, 91, 0.15) 0 1px 12px;
+    display:flex;
+    justify-content:space-between;
 }
 
 .nav-brand{
-    text-align:center;
     font-size:2.25rem;
     font-weight:400;
     letter-spacing:0.125rem;
+}
+
+.nav-button{
+    background:#fff;
+    border:rgba(170, 42, 25, 0.25) 1px solid;
+    border-radius:0.25rem;
+    color:#aa2a19;
+}
+
+.nav-button:hover{
+    background:#eedada;
 }
 
 /* Colors
@@ -21,3 +33,9 @@ html, body {
     Red- #d31313;
     White- #fff;
 */
+
+@media screen and (max-width:320px){
+    .nav-brand{
+        font-size:1.75rem;
+    }
+}
