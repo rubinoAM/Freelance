@@ -20,10 +20,12 @@
     border-radius:0.25rem;
     color:#aa2a19;
     width:auto;
+    transition:background ease-in 0.5s;
 }
 
 .nav-button:hover{
     background:#eedada;
+    transition:background ease-in 0.2s;
 }
 
 ul#navList{
@@ -38,6 +40,12 @@ ul#navList li a{
     color:#aa2a19;
     text-decoration:none;
     font-size:1.5rem;
+    transition:color ease-in 0.5s;
+}
+
+ul#navList li a:hover{
+    color:#d84936;
+    transition:color ease-in 0.2s;
 }
 
 /* Responsive Design */
@@ -79,7 +87,7 @@ ul#navList li a{
     .nav-button{
         display:none;
     }
-    
+
     ul#navList{
         margin-top:0.375rem;
         display:flex;
