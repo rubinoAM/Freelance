@@ -1,0 +1,10 @@
+.footer{
+    color:#aa2a19;
+    padding:1.5rem;
+    box-shadow: rgba(95, 91, 91, 0.15) 0 1px 12px;
+    text-align:center;
+}
+
+.footer p{
+    margin:1rem 0;
+}

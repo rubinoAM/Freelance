@@ -1,3 +1,7 @@
+.main-page{
+    flex:1;
+}
+
 /* Jumbotron */
 .jumbotron{
     min-height:20rem;
