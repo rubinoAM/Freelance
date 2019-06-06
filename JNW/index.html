@@ -8,14 +8,23 @@
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,700,700i&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/nav.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-brand">J & N WELDING</div>
-        <button class="nav-button">
+        <button id="navToggle" class="nav-button">
             <i class="fa fa-bars"></i>
         </button>
+        <ul id="navList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
+    <footer class="footer"></footer>
 </body>
 </html>
