@@ -1,7 +1,10 @@
 /* Jumbotron */
 .jumbotron{
     min-height:20rem;
-    background:#d31313;
+    background:url('/images/jumbo_bg.jpg');
+    background-color:#aa2a19;
+    background-blend-mode:multiply;
+    background-size:cover;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -31,6 +34,7 @@
     text-align:justify;
     color:#fff;
     font-size:1rem;
+    line-height:1.25rem;
 }
 
 @media screen and (max-width:320px){
@@ -47,10 +51,15 @@
     .jumbo-quote{
         width:85%;
         font-size:1.25rem;
+        line-height:1.5rem;
     }
 }
 
 @media screen and (min-width:1200px){
+    .jumbotron{
+        height:30rem;
+    }
+
     .logo img{
         margin-top:1rem;
         width:18rem;
@@ -66,5 +75,6 @@
         text-align:right;
         width:65%;
         font-size:1.5rem;
+        line-height:1.75rem;
     }
 }
