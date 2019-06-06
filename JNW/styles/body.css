@@ -41,6 +41,36 @@
     line-height:1.25rem;
 }
 
+/* Examples */
+.examples{
+    margin:1rem auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.ex-images-container img{
+    width:100vw;
+}
+
+.ex-text{
+    padding:1rem;
+}
+
+.ex-text h2{
+    text-align:center;
+    margin-bottom:1rem;
+    font-weight:700;
+    font-size:2.5rem;
+}
+
+.ex-text p{
+    text-indent:2rem;
+    color:#aa2a19;
+    font-size:1.25rem;
+}
+
+/* Responsive Design */
+
 @media screen and (max-width:320px){
     .logo img{
         width:12rem;
@@ -57,11 +87,32 @@
         font-size:1.25rem;
         line-height:1.5rem;
     }
+
+    .examples{
+        flex-direction:row;
+        width:90vw;
+    }
+
+    .ex-images-container img{
+        width:auto;
+    }
+
+    .ex-text h2{
+        font-size:1.75rem;
+    }
+
+    .ex-text p{
+        font-size:1.125rem;
+    }
 }
 
 @media screen and (min-width:1200px){
     .jumbotron{
         height:30rem;
+    }
+
+    .examples{
+        width:80vw;
     }
 
     .logo img{

@@ -1,4 +1,7 @@
 $(document).ready(()=>{
+    const curDate = new Date();
+    $('#footerYear').html(curDate.getFullYear());
+
     $('#navToggle').click(()=>{
         if($('#navList').css('display') === 'none'){
             $('#navList').css('display','flex');

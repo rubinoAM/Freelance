@@ -8,3 +8,14 @@
 .footer p{
     margin:1rem 0;
 }
+
+.footer p a{
+    text-decoration:none;
+    color:#aa2a19;
+    transition:color 0.5s ease-in;
+}
+
+.footer p a:hover{
+    color:#d84936;
+    transition:color 0.2s ease-in;
+}

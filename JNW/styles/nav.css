@@ -24,6 +24,7 @@
 }
 
 .nav-button:hover{
+    cursor:pointer;
     background:#eedada;
     transition:background ease-in 0.2s;
 }
