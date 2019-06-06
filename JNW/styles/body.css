@@ -2,6 +2,13 @@
     flex:1;
 }
 
+.divided{
+    border:rgba(214, 158, 151, 0.125) solid 0;
+    padding:2rem 0;
+    border-top-width:1px;
+    border-bottom-width:1px;
+}
+
 /* Jumbotron */
 .jumbotron{
     min-height:20rem;
