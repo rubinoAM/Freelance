@@ -27,8 +27,9 @@
     
     <!--Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="scripts/main.js"></script>
     <script src="scripts/imageFade.js"></script>
+    <script src="scripts/contactForm.js"></script>
+    <script src="scripts/main.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -68,15 +69,16 @@
             </div>
         </section>
         <section class="contact" id="contact">
-            <div class="form-container">
-                <form id="contactForm">
-                    <input type="text" placeholder="Enter your name here."/>
-                </form>
-            </div>
-            <div class="contact-info">
+            <div class="con-text">
                 <h2>CONTACT</h2>
-                <p>onec quis sapien porta, aliquam enim et, pellentesque tellus. Donec gravida, mauris et bibendum aliquam, dui erat placerat diam, vitae maximus est tellus nec eros. Cras a nisi urna. Vestibulum arcu ex, consequat sit amet tortor in, vehicula dictum lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae lorem a ex tempus porttitor. Nunc id metus id dolor tincidunt cursus sit amet non magna.</p>
+                <p>Donec quis sapien porta, aliquam enim et, pellentesque tellus. Donec gravida, mauris et bibendum aliquam, dui erat placerat diam, vitae maximus est tellus nec eros. Cras a nisi urna. Vestibulum arcu ex, consequat sit amet tortor in, vehicula dictum lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae lorem a ex tempus porttitor. Nunc id metus id dolor tincidunt cursus sit amet non magna.</p>
             </div>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Enter your name here."/>
+                <input type="email" name="email" placeholder="Enter your email address here."/>
+                <input type="text" name="body" placeholder="Enter your message here."/>
+                <input type="submit" value="Send"/>
+            </form>
         </section>
     </div>
     <footer class="footer">
