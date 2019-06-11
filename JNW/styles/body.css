@@ -48,6 +48,25 @@
     line-height:1.25rem;
 }
 
+/* About */
+.about{
+    margin:1rem auto;
+}
+
+.about h2{
+    text-align:center;
+    margin-bottom:1rem;
+    font-weight:700;
+    font-size:2.5rem;
+}
+
+.about p{
+    text-indent:2rem;
+    color:#aa2a19;
+    font-size:1.25rem;
+    padding:1rem;
+}
+
 /* Examples */
 .examples{
     margin:1rem auto;
@@ -110,6 +129,8 @@
     font-size:1.25rem;
 }
 
+/* Contact */
+
 /* Responsive Design */
 
 @media screen and (max-width:320px){
@@ -156,11 +177,11 @@
         top:-60.8rem;
     }
 
-    .ex-text h2{
+    .ex-text h2, .about h2{
         font-size:1.75rem;
     }
 
-    .ex-text p{
+    .ex-text p, .about p{
         font-size:1.125rem;
     }
     
