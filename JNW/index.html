@@ -75,10 +75,14 @@
                 <p>Donec quis sapien porta, aliquam enim et, pellentesque tellus. Donec gravida, mauris et bibendum aliquam, dui erat placerat diam, vitae maximus est tellus nec eros. Cras a nisi urna. Vestibulum arcu ex, consequat sit amet tortor in, vehicula dictum lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae lorem a ex tempus porttitor. Nunc id metus id dolor tincidunt cursus sit amet non magna.</p>
             </div>
             <form id="contactForm">
-                <input type="text" name="subject" placeholder="Enter the subject for your email."/>
-                <input type="text" name="name" placeholder="Enter your name here."/>
-                <input type="email" name="email" placeholder="Enter your email address here."/>
-                <input type="text" name="body" placeholder="Enter your message here."/>
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" placeholder="Enter the subject for your email." required/>
+                <label for="name">Your Name</label>
+                <input type="text" name="name" placeholder="Enter your name here." required/>
+                <label for="email">Your Email Address</label>
+                <input type="email" name="email" placeholder="Enter your email address here." required/>
+                <label for="body">Message</label>
+                <input type="text" name="body" placeholder="Enter your message here." required/>
                 <input type="submit" value="Send"/>
             </form>
         </section>
