@@ -1,3 +1,4 @@
 example_[0-9]*.JPG
 example_[0-9]*.jpg
 *.ai
+config.js
