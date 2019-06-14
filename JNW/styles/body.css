@@ -55,7 +55,6 @@
 
 .about h2{
     text-align:center;
-    margin-bottom:1rem;
     font-weight:700;
     font-size:2.5rem;
 }
@@ -113,7 +112,7 @@
 }
 
 .ex-text{
-    padding:1rem;
+    padding:1rem 1rem 0;
 }
 
 .ex-text h2{
@@ -130,6 +129,67 @@
 }
 
 /* Contact */
+section.contact{
+    display:static;
+}
+
+.con-text{
+    padding:1rem;
+}
+
+.con-text h2{
+    text-align:center;
+    margin-bottom:1rem;
+    font-weight:700;
+    font-size:2.5rem;
+}
+
+.con-text p{
+    text-indent:2rem;
+    color:#aa2a19;
+    font-size:1.25rem;
+}
+
+#contactForm{
+    text-align:center;
+    margin:0 auto 10px;
+    display:flex;
+    flex-direction:column;
+    width:80%;
+}
+
+#contactForm label{
+    font-weight:700;
+    font-size:1.25rem;
+}
+
+.con-input{
+    margin-bottom:1rem;
+}
+
+.con-input::placeholder{
+    font-family:'Lora','Garamond','Palatino','Georgia',serif;
+    font-size:0.875rem;
+    padding:5px;
+}
+
+.con-btn{
+    font-family:'Lora','Garamond','Palatino','Georgia',serif;
+    font-weight:500;
+    font-size:1rem;
+    background:#fff;
+    border:rgba(170, 42, 25, 0.25) 1px solid;
+    border-radius:0.25rem;
+    color:#aa2a19;
+    width:auto;
+    transition:background ease-in 0.5s;
+}
+
+.con-btn:hover{
+    cursor:pointer;
+    background:#eedada;
+    transition:background ease-in 0.2s;
+}
 
 /* Responsive Design */
 
@@ -177,12 +237,29 @@
         top:-60.8rem;
     }
 
-    .ex-text h2, .about h2{
+    .ex-text h2, .about h2, .con-text h2{
         font-size:1.75rem;
     }
 
-    .ex-text p, .about p{
+    .ex-text p, .about p, .con-text p{
         font-size:1.125rem;
+    }
+
+    section.contact{
+        display:flex;
+        margin:0 auto;
+        width:90%;
+    }
+
+    .con-text{
+        width:80%;
+    }
+
+    .con-btn{
+        padding:auto;
+        margin:0 auto;
+        width:35%;
+        font-size:1.5rem;
     }
     
 }
