@@ -184,14 +184,34 @@ section.contact{
     font-size:1.25rem;
 }
 
-.con-input{
-    margin-bottom:1rem;
+#contactForm textarea{
+    resize:none;
 }
 
-.con-input::placeholder{
+.con-input, #conMsg{
+    margin-bottom:1rem;
+    border:none;
+    font-family:'Lora','Garamond','Palatino','Georgia',serif;
+    font-size:0.875rem;
+    text-align:center;
+    border:rgba(170, 42, 25, 0.25) 1px solid;
+    color:#c48a83;
+}
+
+#conMsg{
+    margin-top:0.5rem;
+}
+
+.con-input::placeholder, #conMsg::placeholder{
     font-family:'Lora','Garamond','Palatino','Georgia',serif;
     font-size:0.875rem;
     padding:5px;
+    color:#c48a83;
+}
+
+#conMsg::placeholder{
+    position:relative;
+    bottom:5px;
 }
 
 .con-btn{
@@ -204,6 +224,7 @@ section.contact{
     color:#aa2a19;
     width:auto;
     transition:background ease-in 0.5s;
+    margin-bottom:1rem;
 }
 
 .con-btn:hover{
@@ -284,6 +305,20 @@ section.contact{
 
     .con-text{
         width:80%;
+    }
+
+    .con-input, #conMsg{
+        padding:8px 0;
+        font-size:1.125rem;
+    }
+
+    .con-input::placeholder, #conMsg::placeholder{
+        text-align:center;
+        font-size:1.125rem;
+    }
+
+    #conMsg::placeholder{
+        bottom:5px;
     }
 
     .con-btn{
